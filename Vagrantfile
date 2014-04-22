@@ -93,7 +93,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
      chef.json = { 
       :demo => {
         :name => 'nhphp',
-        :docroot => '/vagrant'
+        :docroot => '/vagrant',
+        :server_name => 'nhphp'
       }
       #:mysql_password => "foo" 
      }

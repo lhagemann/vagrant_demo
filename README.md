@@ -12,7 +12,4 @@ This is simply files I used during the talk, they may be of use for reference to
 	* `vagrant plugin install vagrant-berkshelf`
 * [vagrant-omnibus](https://github.com/schisamo/vagrant-omnibus)
 	* `vagrant plugin install vagrant-omnibus`
-=======
-vagrant_demo
-============
 
