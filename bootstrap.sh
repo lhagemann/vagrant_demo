@@ -14,10 +14,6 @@ apt-get install -y apache2
 rm -rf /var/www
 ln -fs /vagrant /var/www
 
-# without a servername precise sets the server to 127.0.1.1 which breaks
-# simple port forward to localhost; so name the server in apache 
-echo "ServerName localhost" | sudo tee /etc/apache2/httpd.conf > /dev/null
-
 ## TODO ##
 # add apache modules here with a2enmod <module>
 
