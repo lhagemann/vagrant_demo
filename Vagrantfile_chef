@@ -81,6 +81,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # use berkshelf to manage our cookbooks
   config.berkshelf.enabled = true
+  # use the chef omnibus installer for chef solo provisioning
+  config.omnibus.chef_version = :latest
 
   # Enable provisioning with chef solo, specifying a cookbooks path, roles
   # path, and data_bags path (all relative to this Vagrantfile), and adding
